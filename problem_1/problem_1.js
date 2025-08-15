@@ -1,6 +1,6 @@
 function totalFine(fare) {
   // check input is number or not
-  if (typeof fare !== "number" || fare !== Math.abs(fare) || fare === 0) {
+  if (typeof fare !== "number" || fare <= 0) {
     return "Invalid";
   }
 
